@@ -1,5 +1,0 @@
-# WHY I DECIDED TO USE REACT:
-
--
--
--
