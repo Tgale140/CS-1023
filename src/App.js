@@ -43,10 +43,30 @@ function App() {
             </div>
             <div style={{ color: "#fff" }}>
               <Button
+                onClick={() => alert("buttob clicked")}
+                style={{ marginLeft: 20 }}
+              >
+                Option 1
+              </Button>
+              <Button
+                onClick={() => alert("buttob clicked")}
+                style={{ marginLeft: 20 }}
+              >
+                Option 2
+              </Button>
+              <Button
+                onClick={() => alert("buttob clicked")}
+                style={{ marginLeft: 20 }}
+              >
+                Option 3
+              </Button>
+
+              <Button
                 variant="contained"
+                style={{ marginLeft: 30 }}
                 onClick={() => alert("buttob clicked")}
               >
-                Login
+                Login/Signup
               </Button>
             </div>
           </div>
